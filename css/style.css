@@ -1,0 +1,227 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-narrow');
+
+img{
+    display: block;
+}
+.stranger{
+    padding-bottom: 20px;
+    width: 16rem;
+}
+.strange-head{
+    font-size: 1.8rem;
+}
+.strange-para{
+    text-align: center;
+}
+.strange-button-shop{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 121px;
+    border: none;
+    margin-right: 6rem;
+}
+.button-shop{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 121px;
+    border: none;
+}
+.innovation-button-shop{
+    background-color:black;
+    color: white;
+    height: 40px;
+    width: 121px;
+    border: none;
+}
+
+.button-shop-text{
+    font-size: 16px;
+    padding: 3px;
+}
+.button-in-banner{
+    padding-right: 24px;
+}
+
+.card{
+    width: 28rem;
+    border: none;
+}
+.button-center-card{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 220px;
+}
+.mid-para-pic{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.button-shop-mid{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    width: 172px;
+    height: 37px;
+    
+}
+@media screen and (min-width:568px){
+
+
+    .cards-wrapper{
+        display: flex;
+    }
+    .card{
+        width: calc(100%25);
+        margin: 0.5em;
+    }
+    }
+    @media screen  and (max-width: 567px) {
+        .card:not(:first-child){
+            display: none;
+        }
+        
+    }
+    .image-wrapper{
+        height: 22vh;
+        margin: 0 auto;
+    }
+    .image-wrapper img{
+        max-width:100%;
+        max-height:100%;
+    }
+    .carousel-control-next,
+    .carousel-control-prev /*, .carousel-indicators */ {
+        filter: invert(100%);
+    }
+
+    .card-title{
+        text-align: center;
+    }
+    .discount{
+        background: #dd2121;
+        color: #fff !important;
+        padding: 7px 5px;
+        border-radius: 5px;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        white-space: nowrap;
+        font-style: italic;
+    }
+    .card-body a{
+        margin-left: 2rem;
+    }
+    .carousal-card-product-button{
+       background-color: #fff;
+       border: 2px solid black;
+       color: black;
+       text-decoration: none;
+    }
+    .button-top-footer{
+        width: 120px;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid black;
+        height: 40px;
+        color: white;
+    }
+     
+.footer-top-img-caption-center{
+    top: 40%;
+    left: 17%;
+    margin-left: 8vw;
+}
+.footer-top-img-caption-center > h4{
+    font-size: 6vw;
+}
+.footer-top-img-caption-center > p{
+    font-size: 1.5vw;
+}
+
+.footer-top-img-caption-left{
+    top: 58%;
+    left: 10%;
+    width: 223px;
+}
+.footer-top-img-caption p{
+    font-size: 14p;
+}
+
+.footer-top-image-center-button{
+    border: none;
+    background-color: white;
+    font-size: 1vw; 
+    width: 11vw;
+    height: 4vw;
+    display: block;
+    margin: 0 auto;
+} 
+.footer-top-img-caption-right{
+top: 13%;
+left: 62%;
+
+}
+.footer-links {
+    line-height: 2.5;
+    text-align: center;
+}
+
+.banner-caption{
+    padding-bottom: 1rem
+}
+.banner-caption-para{
+    padding-bottom: 2rem;
+}
+footer{
+    background-color: lightgray;
+}
+.footer-list-social-icons {
+    font-size: 40px;
+}
+.footer-list-social{
+     padding: 0rem .5rem;;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .footer-email-input{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 701px) {
+    .footer-email-input{
+        width: 75%;
+    }
+}
+#scroll-container {
+    border: 3px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .moving-text-header{
+        padding: 10px 0;
+       background-color: #014d6d;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .footer-text-details{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 701px) {
+    .footer-text-details{
+        text-align: left;
+    }
+    }
